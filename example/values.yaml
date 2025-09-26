@@ -1,0 +1,4 @@
+serviceMonitor:
+  enabled: true
+  telemetryPath: /metrics
+  interval: 30s
