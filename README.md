@@ -11,6 +11,7 @@
 |------|-------------|------|---------|:--------:|
 | <a name="input_chart_name"></a> [chart\_name](#input\_chart\_name) | Name of the Helm chart | `string` | `"meilisearch"` | no |
 | <a name="input_enable_meilisearch"></a> [enable\_meilisearch](#input\_enable\_meilisearch) | Enable OpenTelemetry Collector deployment | `bool` | `false` | no |
+| <a name="input_meilisearch_version"></a> [meilisearch\_version](#input\_meilisearch\_version) | The version of the meilisearch Helm chart to be deployed. | `string` | `"0.32.0"` | no |
 | <a name="input_namespace"></a> [namespace](#input\_namespace) | Kubernetes namespace to deploy into | `string` | `"meilisearch"` | no |
 | <a name="input_persistence_enabled"></a> [persistence\_enabled](#input\_persistence\_enabled) | Enable or disable persistent storage for Meilisearch | `bool` | `true` | no |
 | <a name="input_persistence_size"></a> [persistence\_size](#input\_persistence\_size) | The size of the persistent volume for Meilisearch | `string` | `"10Gi"` | no |
