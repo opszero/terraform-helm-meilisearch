@@ -46,3 +46,8 @@ variable "persistence_storage_class" {
   default     = "gp3"
   description = "The storage class to use for the persistent volume"
 }
+
+variable "meilisearch_version" {
+  description = "The version of the meilisearch Helm chart to be deployed."
+  default     = "0.32.0"
+}

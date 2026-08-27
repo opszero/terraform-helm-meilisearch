@@ -3,6 +3,7 @@ resource "helm_release" "meilisearch" {
   name             = var.release_name
   namespace        = var.namespace
   create_namespace = true
+  version          = var.meilisearch_version
 
   repository = "https://meilisearch.github.io/meilisearch-kubernetes"
   chart      = var.chart_name
